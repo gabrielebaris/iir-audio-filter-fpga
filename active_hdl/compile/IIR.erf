@@ -1,0 +1,11 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\..\db\tb\IIR_TB_Synth.vhd" 
+BEGINPROGRESS c:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\..\db\tb\IIR_TB_Synth.vhd
+MESSAGE "Compile Entity "IIR_TB_Synth"" 
+MESSAGE "Compile Architecture "TB_Arch" of Entity "IIR_TB_Synth"" 
+UPDATEPROGRESS 88
+UPDATEPROGRESS 88
+UPDATEPROGRESS 108
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\..\db\tb\IIR_TB_Synth.vhd
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

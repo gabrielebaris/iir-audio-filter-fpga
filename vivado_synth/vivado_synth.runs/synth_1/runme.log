@@ -1,0 +1,421 @@
+
+*** Running vivado
+    with args -log IIR16bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IIR16bit.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source IIR16bit.tcl -notrace
+Command: synth_design -top IIR16bit -part xc7z010clg400-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3700 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 296.117 ; gain = 77.648
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IIR16bit' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR16bit.vhd:14]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'IIR' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:4' bound to instance 'filter' of component 'IIR' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR16bit.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'IIR' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:14]
+	Parameter Nbit bound to: 16 - type: integer 
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:4' bound to instance 'REGx' of component 'Reg' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:16]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'DFlipFlop' (1#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:13]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-3491] module 'DFlipFlop' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/DFlipFlop.vhd:4' bound to instance 'DFFx' of component 'DFlipFlop' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (2#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:16]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:4' bound to instance 'REGx' of component 'Reg' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:70]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:4' bound to instance 'REGx' of component 'Reg' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:70]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/Reg.vhd:4' bound to instance 'REGx' of component 'Reg' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:70]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'RippleCarryAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:4' bound to instance 'inputAdder' of component 'RippleCarryAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:16]
+	Parameter Nbit bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'FullAdder' (3#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:14]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'FAx' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdder' (4#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdder.vhd:16]
+	Parameter Nbit bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'RippleCarryAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:4' bound to instance 'outputAdder' of component 'RippleCarryAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'RippleCarryAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:16]
+	Parameter Nbit bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:15]
+INFO: [Synth 8-3491] module 'FullAdder' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdder.vhd:4' bound to instance 'internalFullAdder' of component 'FullAdder' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'FullAdderSubtractor' (5#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:15]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-3491] module 'FullAdderSubtractor' declared at 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/FullAdderSubtractor.vhd:4' bound to instance 'FASx' of component 'FullAdderSubtractor' [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'RippleCarryAdderSubtractor' (6#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/RippleCarryAdderSubtractor.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'IIR' (7#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'IIR16bit' (8#1) [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/db/src/IIR16bit.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 336.195 ; gain = 117.727
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 336.195 ; gain = 117.727
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 642.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 34    
++---Registers : 
+	                1 Bit    Registers := 64    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 18    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FullAdder 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module FullAdderSubtractor 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module DFlipFlop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     1|
+|4     |LUT3 |    16|
+|5     |LUT4 |     1|
+|6     |LUT5 |    30|
+|7     |LUT6 |     4|
+|8     |FDCE |    64|
+|9     |IBUF |    18|
+|10    |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------------+-------------+------+
+|      |Instance             |Module       |Cells |
++------+---------------------+-------------+------+
+|1     |top                  |             |   152|
+|2     |  filter             |IIR          |   117|
+|3     |    \GEN[0].REGx     |Reg          |    68|
+|4     |      \GEN[0].DFFx   |DFlipFlop_50 |     3|
+|5     |      \GEN[10].DFFx  |DFlipFlop_51 |     4|
+|6     |      \GEN[11].DFFx  |DFlipFlop_52 |     5|
+|7     |      \GEN[12].DFFx  |DFlipFlop_53 |     4|
+|8     |      \GEN[13].DFFx  |DFlipFlop_54 |     4|
+|9     |      \GEN[14].DFFx  |DFlipFlop_55 |     3|
+|10    |      \GEN[15].DFFx  |DFlipFlop_56 |     3|
+|11    |      \GEN[1].DFFx   |DFlipFlop_57 |     6|
+|12    |      \GEN[2].DFFx   |DFlipFlop_58 |     4|
+|13    |      \GEN[3].DFFx   |DFlipFlop_59 |     5|
+|14    |      \GEN[4].DFFx   |DFlipFlop_60 |     4|
+|15    |      \GEN[5].DFFx   |DFlipFlop_61 |     5|
+|16    |      \GEN[6].DFFx   |DFlipFlop_62 |     4|
+|17    |      \GEN[7].DFFx   |DFlipFlop_63 |     5|
+|18    |      \GEN[8].DFFx   |DFlipFlop_64 |     4|
+|19    |      \GEN[9].DFFx   |DFlipFlop_65 |     5|
+|20    |    \GEN[1].REGx     |Reg_0        |    17|
+|21    |      \GEN[0].DFFx   |DFlipFlop_34 |     1|
+|22    |      \GEN[10].DFFx  |DFlipFlop_35 |     1|
+|23    |      \GEN[11].DFFx  |DFlipFlop_36 |     1|
+|24    |      \GEN[12].DFFx  |DFlipFlop_37 |     1|
+|25    |      \GEN[13].DFFx  |DFlipFlop_38 |     1|
+|26    |      \GEN[14].DFFx  |DFlipFlop_39 |     1|
+|27    |      \GEN[15].DFFx  |DFlipFlop_40 |     2|
+|28    |      \GEN[1].DFFx   |DFlipFlop_41 |     1|
+|29    |      \GEN[2].DFFx   |DFlipFlop_42 |     1|
+|30    |      \GEN[3].DFFx   |DFlipFlop_43 |     1|
+|31    |      \GEN[4].DFFx   |DFlipFlop_44 |     1|
+|32    |      \GEN[5].DFFx   |DFlipFlop_45 |     1|
+|33    |      \GEN[6].DFFx   |DFlipFlop_46 |     1|
+|34    |      \GEN[7].DFFx   |DFlipFlop_47 |     1|
+|35    |      \GEN[8].DFFx   |DFlipFlop_48 |     1|
+|36    |      \GEN[9].DFFx   |DFlipFlop_49 |     1|
+|37    |    \GEN[2].REGx     |Reg_1        |    16|
+|38    |      \GEN[0].DFFx   |DFlipFlop_18 |     1|
+|39    |      \GEN[10].DFFx  |DFlipFlop_19 |     1|
+|40    |      \GEN[11].DFFx  |DFlipFlop_20 |     1|
+|41    |      \GEN[12].DFFx  |DFlipFlop_21 |     1|
+|42    |      \GEN[13].DFFx  |DFlipFlop_22 |     1|
+|43    |      \GEN[14].DFFx  |DFlipFlop_23 |     1|
+|44    |      \GEN[15].DFFx  |DFlipFlop_24 |     1|
+|45    |      \GEN[1].DFFx   |DFlipFlop_25 |     1|
+|46    |      \GEN[2].DFFx   |DFlipFlop_26 |     1|
+|47    |      \GEN[3].DFFx   |DFlipFlop_27 |     1|
+|48    |      \GEN[4].DFFx   |DFlipFlop_28 |     1|
+|49    |      \GEN[5].DFFx   |DFlipFlop_29 |     1|
+|50    |      \GEN[6].DFFx   |DFlipFlop_30 |     1|
+|51    |      \GEN[7].DFFx   |DFlipFlop_31 |     1|
+|52    |      \GEN[8].DFFx   |DFlipFlop_32 |     1|
+|53    |      \GEN[9].DFFx   |DFlipFlop_33 |     1|
+|54    |    \GEN[3].REGx     |Reg_2        |    16|
+|55    |      \GEN[0].DFFx   |DFlipFlop    |     1|
+|56    |      \GEN[10].DFFx  |DFlipFlop_3  |     1|
+|57    |      \GEN[11].DFFx  |DFlipFlop_4  |     1|
+|58    |      \GEN[12].DFFx  |DFlipFlop_5  |     1|
+|59    |      \GEN[13].DFFx  |DFlipFlop_6  |     1|
+|60    |      \GEN[14].DFFx  |DFlipFlop_7  |     1|
+|61    |      \GEN[15].DFFx  |DFlipFlop_8  |     1|
+|62    |      \GEN[1].DFFx   |DFlipFlop_9  |     1|
+|63    |      \GEN[2].DFFx   |DFlipFlop_10 |     1|
+|64    |      \GEN[3].DFFx   |DFlipFlop_11 |     1|
+|65    |      \GEN[4].DFFx   |DFlipFlop_12 |     1|
+|66    |      \GEN[5].DFFx   |DFlipFlop_13 |     1|
+|67    |      \GEN[6].DFFx   |DFlipFlop_14 |     1|
+|68    |      \GEN[7].DFFx   |DFlipFlop_15 |     1|
+|69    |      \GEN[8].DFFx   |DFlipFlop_16 |     1|
+|70    |      \GEN[9].DFFx   |DFlipFlop_17 |     1|
++------+---------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 642.555 ; gain = 117.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 642.555 ; gain = 424.086
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+84 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 642.555 ; gain = 424.086
+INFO: [Common 17-1381] The checkpoint 'C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.runs/synth_1/IIR16bit.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 642.555 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 25 17:21:31 2017...

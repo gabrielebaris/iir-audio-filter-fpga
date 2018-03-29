@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+iir=.\IIR.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+iir=1
+[Settings]
+Active=iir

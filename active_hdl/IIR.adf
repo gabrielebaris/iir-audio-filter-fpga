@@ -1,0 +1,90 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=IIR
+
+[Library]
+IIR=.\IIR\IIR.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\db\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+IIR=.
+Active_lib=
+
+[Folders]
+Name3=Makefiles
+Directory3=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\
+Extension3=mak
+Name4=Memory
+Directory4=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\
+Extension5=dll
+Name6=PDF
+Directory6=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\Users\gabriele\Documents\DigitalSystems\ProjectIIR\active_hdl\
+Extension7=htm;html
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=iir_tb_street|TB_Arch|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/..\..\db\src\DFlipFlop.vhd=-1
+/..\..\db\src\FullAdder.vhd=-1
+/..\..\db\src\Reg.vhd=-1
+/..\..\db\src\RippleCarryAdder.vhd=-1
+/..\..\db\src\IIR.vhd=-1
+/..\..\db\src\FullAdderSubtractor.vhd=-1
+/..\..\db\src\RippleCarryAdderSubtractor.vhd=-1
+/..\..\db\tb\IIR_TB_Delta.vhd=-1
+/..\..\db\tb\IIR_TB_Synth.vhd=-1
+/..\..\db\tb\IIR_TB_Street.vhd=-1
+/..\..\db\src\IIR16bit.vhd=-1
+
+[Files.Data]
+.\..\db\src\DFlipFlop.vhd=VHDL Source Code
+.\..\db\src\FullAdder.vhd=VHDL Source Code
+.\..\db\src\Reg.vhd=VHDL Source Code
+.\..\db\src\RippleCarryAdder.vhd=VHDL Source Code
+.\..\db\src\IIR.vhd=VHDL Source Code
+.\..\db\src\FullAdderSubtractor.vhd=VHDL Source Code
+.\..\db\src\RippleCarryAdderSubtractor.vhd=VHDL Source Code
+.\..\db\tb\IIR_TB_Delta.vhd=VHDL Source Code
+.\..\db\tb\IIR_TB_Synth.vhd=VHDL Source Code
+.\..\db\tb\IIR_TB_Street.vhd=VHDL Source Code
+.\..\db\src\IIR16bit.vhd=VHDL Source Code
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Jun 25 17:20:52 2017
+# Process ID: 7540
+# Current directory: C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.runs/synth_1
+# Command line: vivado.exe -log IIR16bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IIR16bit.tcl
+# Log file: C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.runs/synth_1/IIR16bit.vds
+# Journal file: C:/Users/gabriele/Documents/DigitalSystems/ProjectIIR/vivado_synth/vivado_synth.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IIR16bit.tcl -notrace
