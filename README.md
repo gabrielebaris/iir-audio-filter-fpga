@@ -28,7 +28,7 @@ The project folder resembles the following structure:
 * active_hdl: Active-HDL project folder
 * vivado_synth: Vivado project folder
 
-The design workflow can be found in the <report> file
+The design workflow can be found in the [report](https://github.com/gabrielebaris/IIRAudioFilterFPGA/blob/master/report/report.pdf) file.
 
 ## License
-This project is licensed under the * License - see the <LICENSE_link> file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gabrielebaris/IIRAudioFilterFPGA/blob/master/LICENSE) file for details
